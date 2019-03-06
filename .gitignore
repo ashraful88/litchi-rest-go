@@ -10,3 +10,13 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+.env
+./vendor
+
+.DS_Store
+vendor/*
+coverage.out
+count.out
+test
+.vscode
+.vscode/*
