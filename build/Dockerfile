@@ -1,10 +1,10 @@
 FROM golang:1.11.5-stretch
 
 WORKDIR /go/src/api
-COPY . .
+COPY .. .
 
 RUN curl https://glide.sh/get | sh
 
 RUN glide install
 
-CMD cd api && go run main.go
+CMD cd cmd && go run main.go

@@ -1,5 +1,5 @@
-hash: 6dd58d91dd6ef39bc764e325db4a9394dd25e8391dfe797d5420e424380316b0
-updated: 2019-03-06T17:37:17.634067+08:00
+hash: 6c85619a888c7e27fad0061e6fbd25a90f63287193a57c28f0574993560fab8d
+updated: 2019-03-29T15:48:12.326654+08:00
 imports:
 - name: github.com/fsnotify/fsnotify
   version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
@@ -57,6 +57,10 @@ imports:
   version: e444a5086c436778cf9281a7059a3d58b9e17935
   subpackages:
   - codec
+- name: go.mongodb.org/mongo-driver
+  version: 1c3b9b9a41eecdf056560e07b68e6407b8d598c3
+  subpackages:
+  - mongo
 - name: golang.org/x/sys
   version: a98ae47d97a5abb3a3e9045da36315f9f8312970
   subpackages:
