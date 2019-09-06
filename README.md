@@ -2,16 +2,9 @@
 
 # litchi-rest-go (Alpha)
 
-Gin + MongoDB REST api boilerplate
+New Roadmap: 
+Use 'fasthttp' and 'cockroachDB' based REST api boilerplate
 
-Package Manager Glide
+Package Manager `go mod`
 
 Structured Logging with Event
-
-## Installation
-
-`glide install`
-
-## Run
-
-`go run main.go`
